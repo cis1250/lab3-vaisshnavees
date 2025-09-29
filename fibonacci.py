@@ -27,7 +27,7 @@ def main():
         
         # showing the remaining terms 
         for i in range(2, n):
-            next_term = fiq_sequence[i-1] + fib_sequence[i-2]
+            next_term = fib_sequence[i-1] + fib_sequence[i-2]
             fib_sequence.append(next_term)  # adding a new term
         
         # making sure all numbers are turned to strings to get an output
