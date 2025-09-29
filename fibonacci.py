@@ -13,7 +13,7 @@ def main():
         else:
             print("Please enter a positive integer.")
     
-    # Generate and print Fibonacci sequence using a for loop
+    # print Fibonacci sequence using a for loop
   
     if n == 1:
         # if user wants 1 term print 1
